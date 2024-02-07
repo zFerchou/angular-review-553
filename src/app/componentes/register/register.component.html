@@ -1,0 +1,46 @@
+<form [formGroup]="registerForm">
+    <p-card header="Ingresar al sistema" [style]="{ width: '360px' }">
+      <div class="field"> Nombre
+        <input
+          type="text"
+          pInputText
+          formControlName="fullname"
+          placeholder="Nombre Completo"
+          class="w-full"
+        /> 
+      </div> Tu Email
+      <small *ngIf="fullname.invalid && (fullname.dirty || fullname.touched)" class="block p-error">
+          <div *ngIf="fullname.hasError('reuired')">
+              Ingresa E-mail
+          </div>
+      </small>
+      <div class="field">
+        <input
+          type="text"
+          pInputText
+          formControlName="email"
+          placeholder="Ingresar E-mail"
+          class="w-full"
+        />
+      </div>
+      <small *ngIf="email.invalid && (email.dirty || email.touched)" class="block p-error">
+          <div *ngIf="email.hasError('reuired')">
+              Ingresa E-mail
+          </div>
+          <div *ngIf="email.hasError('email')">
+              email incorrecto
+          </div>
+      </small>
+      <div class="field"> Contraseña
+        <p-password formControlName="password" [toggleMask]="true" styleClass="w-full"></p-password>
+        
+      </div>
+      <div class="field"> COnfirma Contraseña
+        <p-password formControlName="confirmPassword" [toggleMask]="true" styleClass="w-full"></p-password>
+      </div>
+        <p-button label="Registrar" styleClass="w-full"></p-button>
+        <div class="mt-2">
+        <a routerLink="/login">Inisiar Sesion</a>
+        </div>
+    </p-card>
+  </form>

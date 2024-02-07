@@ -3,3 +3,9 @@
 @import "primeng/resources/primeng.css";
 @import "primeflex/primeflex.css/";
 @import "primeicons/primeicons.css";
+
+body, html
+{
+    margin: 0;
+    height: 100%;
+}
