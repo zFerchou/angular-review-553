@@ -21,7 +21,17 @@
 npm install primeng 
 
 ```
-# levantar el servidor Json-Server
+# levantar el servidor y el  Json-Server
+Levantar el Json-Serve
+```
+json-server --watch db.json
+
+```
+ejecutar el servidor
+```
+ng server --open
+
+```
 - El FrontEnd y verificar que sea valido
 
 
@@ -30,5 +40,5 @@ npm install primeng
 
 # Ingresar a la URL
 
-Login
+<a href="https://localhost:4200/" title="Optional title">Ingresar a la pagina</a>
 
