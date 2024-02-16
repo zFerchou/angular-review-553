@@ -1,3 +1,7 @@
+# Medina Arredondo Luis Fernando
+
+
+
 # Instalacion
 - Clonar el repositorio
 - ```
@@ -15,7 +19,10 @@
 ```
 - npm install json-server
 ```
+```
+npm install primeng --save
 
+```
 # levantar el servidor Json-Server
 - El FrontEnd y verificar que sea valido
 
