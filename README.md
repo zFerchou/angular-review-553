@@ -8,8 +8,9 @@
 - cd [Nombre_proyecto]
 - Mediante nom instalar los modulos
 - 
-- npm install
+- 
 - ```
+ npm install 
 - npm install json-server
 -  ```
 
