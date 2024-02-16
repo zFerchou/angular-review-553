@@ -1,6 +1,7 @@
 # Medina Arredondo Luis Fernando
-
-
+# Grupo: GDS0553
+# Descargar e Instalar Login JUnto con sus
+Dependencias
 
 # Instalacion
 - Clonar el repositorio
@@ -20,7 +21,7 @@
 - npm install json-server
 ```
 ```
-npm install primeng --save
+npm install primeng 
 
 ```
 # levantar el servidor Json-Server
