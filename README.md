@@ -9,10 +9,12 @@
 - Mediante nom instalar los modulos
 - 
 - 
-- ```
- npm install 
+ ```
+ npm install
+```
+```
 - npm install json-server
--  ```
+```
 
 # levantar el servidor Json-Server
 - El FrontEnd y verificar que sea valido
