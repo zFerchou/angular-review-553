@@ -1,4 +1,4 @@
-<form [formGroup]="loginForm">
+<form [formGroup]="loginForm" (ngSubmit)="login()">
     <p-card header="Ingresar al Sistema" [style]="{ width: '360px' }">
     <div class="field">
      <label for="email">Correo Electronico</label>
@@ -20,7 +20,7 @@
         <p-password formControlName="password" name="password" [toggleMask]="true" styleClass="w-full"> </p-password>
     </div>
     <div class="buton">
-        <p-button label="Ingresar" styleClass="w-full"></p-button>
+        <p-button type="submit" label="Ingresar" styleClass="w-full"></p-button>
         <div class="mt-2">
         ¿Tienes cuenta? <a routerLink="/register">Registrar</a>
         </div>

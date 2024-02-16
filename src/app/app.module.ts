@@ -12,6 +12,8 @@ import { FooterComponent } from './componentes/footer/footer.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MenubarModule } from 'primeng/menubar';
 import { HttpClientModule } from '@angular/common/http';
+import { MessageService } from 'primeng/api';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,10 +29,12 @@ import { HttpClientModule } from '@angular/common/http';
     ReactiveFormsModule,
     HttpClientModule,
     PrimengModule,
-    MenubarModule
+    MenubarModule,
+    BrowserAnimationsModule
     
   ],
   providers: [
+    MessageService,
     provideClientHydration()
   ],
   bootstrap: [AppComponent]

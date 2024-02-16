@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "7bf7",
+      "fullname": "Fernando",
+      "email": "fernando@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "2ecb",
+      "fullname": "Luis",
+      "email": "luis@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "3892",
+      "fullname": "pedro",
+      "email": "pedro@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "46ac",
+      "fullname": "Diana",
+      "email": "diana@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "5e5d",
+      "fullname": "fernando",
+      "email": "fer@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "13f5",
+      "fullname": "fer",
+      "email": "fer@gmail.com",
+      "password": "123"
+    }
+  ]
+}
