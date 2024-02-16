@@ -32,11 +32,7 @@ ejecutar el servidor
 ng server --open
 
 ```
-- El FrontEnd y verificar que sea valido
 
-
-# Ejecutar el servidor
-- ng server -o
 
 # Ingresar a la URL
 
