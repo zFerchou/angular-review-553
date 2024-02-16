@@ -1,7 +1,6 @@
 # Medina Arredondo Luis Fernando
 # Grupo: GDS0553
-# Descargar e Instalar Login JUnto con sus
-Dependencias
+# Descargar e Instalar Login jnto con sus Dependencias
 
 # Instalacion
 - Clonar el repositorio
@@ -12,8 +11,6 @@ Dependencias
 - Cambiarse al directorio
 - cd [Nombre_proyecto]
 - Mediante nom instalar los modulos
-- 
-- 
  ```
  npm install
 ```
