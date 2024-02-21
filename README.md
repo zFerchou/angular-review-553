@@ -29,7 +29,7 @@ json-server --watch db.json
 ```
 ejecutar el servidor
 ```
-ng server --open
+ng serve --open
 
 ```
 
