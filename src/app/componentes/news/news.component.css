@@ -1,6 +1,4 @@
-/* styles.css */
 
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
 }
@@ -32,7 +30,6 @@ body {
     padding: 50px 0;
 }
 
-/* Estilos para tarjetas de noticias */
 .card {
     transition: transform 0.3s;
 }
@@ -41,8 +38,8 @@ body {
     transform: translateY(-5px);
 }
 
-/* Estilos para el pie de página */
 footer {
     background-color: #343a40;
     color: #fff;
 }
+

@@ -14,6 +14,9 @@ import { MenubarModule } from 'primeng/menubar';
 import { HttpClientModule } from '@angular/common/http';
 import { MessageService } from 'primeng/api';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatchesComponent } from './componentes/matches/matches.component';
+import { NewsComponent } from './componentes/news/news.component';
+import { RegisterplayerComponent } from './componentes/registerplayer/registerplayer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +24,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     LoginComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    MatchesComponent,
+    NewsComponent,
+    RegisterplayerComponent
   ],
   imports: [
     BrowserModule,

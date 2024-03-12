@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liga Deportiva</title>
+    <title>Equipos - Liga Deportiva</title>
     <!-- Agregar Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Agregar tu hoja de estilos personalizada -->
-    <link rel="stylesheet" href="home.component.css">
+    <link rel="stylesheet" href="teams.component.css">
 </head>
 <body>
     <header>
@@ -35,9 +35,8 @@
                             <a class="nav-link" href="news">Noticias</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Login</a>
+                            <a class="nav-link" href="login">Login</a>
                         </li>
-                        
                     </ul>
                 </div>
             </div>
@@ -46,58 +45,56 @@
 
     <main>
         <section class="banner">
-            <div class="container-fluid text-center">
-                <h1>Bienvenido a la Liga Deportiva</h1>
-                <p>Explora las últimas noticias, eventos y más.</p>
-                <a href="#" class="btn btn-primary btn-lg">Explorar</a>
+            <div class="container text-center">
+                <h1>Descubre nuestros equipos</h1>
+                <p>Conoce más sobre los equipos que compiten en nuestra liga.</p>
+                <a href="#" class="btn btn-primary btn-lg">Ver equipos</a>
             </div>
         </section>
 
         <section class="destacado">
-            <div class="container-fluid">
-                <h2>Últimas noticias</h2>
+            <div class="container">
+                <h2>Equipos destacados</h2>
+                <nav class="navbar navbar-light bg-light">
+                    <a class="navbar-brand">Buscar</a>
+                    <form class="form-inline">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                  </nav>
                 <div class="row">
                     <div class="col-md-6">
                         <div class="card mb-4">
-                            <img src="imagen1.jpg" class="card-img-top" alt="...">
+                            <img src="equipo1.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h3 class="card-title">Título de la noticia</h3>
-                                <p class="card-text">Descripción breve de la noticia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                <a href="#" class="btn btn-primary">Leer más</a>
+                                <h3 class="card-title">Nombre del Equipo</h3>
+                                <p class="card-text">Fundación: 1920<br> Estadio: [Nombre del estadio]<br> Ciudad: [Ciudad]<br>Descripción breve del equipo.</p>
+                                <a href="#" class="btn btn-primary">Ver detalles</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="card mb-4">
-                            <img src="imagen2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title">Otra noticia importante</h3>
-                                <p class="card-text">Descripción breve de la noticia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                <a href="#" class="btn btn-primary">Leer más</a>
-                            </div>
-                        </div>
-                    </div>
+        
                 </div>
             </div>
         </section>
 
         <section class="galeria bg-light">
-            <div class="container-fluid">
-                <h2>Estadios</h2>
+            <div class="container">
+                <h2>Equipos</h2>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card mb-4">
-                            <img src="imagen" class="card-img-top" alt="...">
+                            <img src="https://w7.pngwing.com/pngs/621/833/png-transparent-real-madrid-c-f-logo-sticker-football-jersey-football-logo-sport-sports-football-team-thumbnail.png" class="card-img-top" alt="...">
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card mb-4">
-                            <img src="imagen2.jpg" class="card-img-top" alt="...">
+                            <img src="equipo4.jpg" class="card-img-top" alt="...">
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card mb-4">
-                            <img src="imagen3.jpg" class="card-img-top" alt="...">
+                            <img src="equipo5.jpg" class="card-img-top" alt="...">
                         </div>
                     </div>
                 </div>
@@ -105,16 +102,14 @@
         </section>
     </main>
 
-    <footer class="bg-dark text-light text-center py-15">
-        <div class="container-fluid">
-            <p>&copy; 2024 Liga Deportiva. Todos los derechos reservados.</p>
-        </div>
+    <footer class="bg-dark text-light text-center py-4">
+        <p>&copy; 2024 Liga Deportiva. Todos los derechos reservados.</p>
     </footer>
-    
 
-    
+    <!-- Scripts de Bootstrap (jQuery y Popper.js) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+

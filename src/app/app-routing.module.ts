@@ -5,7 +5,11 @@ import { LoginComponent } from './componentes/login/login.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { RegisterComponent } from './componentes/register/register.component';
 import { authGuard } from './guardias/auth.guard';
-
+import { PlayersComponent } from './componentes/players/players.component'
+import { TeamsComponent } from './componentes/teams/teams.component';
+import { MatchesComponent } from './componentes/matches/matches.component';
+import { NewsComponent } from './componentes/news/news.component';
+import { RegisterplayerComponent } from './componentes/registerplayer/registerplayer.component';
 const routes: Routes = [
   {
   path: 'login',
@@ -22,9 +26,34 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'login',
+    redirectTo: 'home',
     pathMatch: 'full'
-  }
+  },
+  {
+    path: 'players',
+    component: PlayersComponent,
+    canActivate: [authGuard]
+  },
+  {
+    path: 'teams',
+    component: TeamsComponent,
+    
+  },
+  {
+    path: 'matches',
+    component: MatchesComponent,
+    
+  },
+  {
+    path: 'news',
+    component: NewsComponent,
+  },
+  {
+    path: 'registerplayers',
+    component: RegisterplayerComponent,
+  },
+  
+
 ];
 
 @NgModule({

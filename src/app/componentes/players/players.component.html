@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liga Deportiva</title>
-    <!-- Agregar Bootstrap CSS -->
+    
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Agregar tu hoja de estilos personalizada -->
-    <link rel="stylesheet" href="home.component.css">
+    
+    <link rel="stylesheet" href="players.component.css">
 </head>
 <body>
     <header>
@@ -35,7 +35,7 @@
                             <a class="nav-link" href="news">Noticias</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Login</a>
+                            <a class="nav-link" href="Login">Login</a>
                         </li>
                         
                     </ul>
@@ -47,62 +47,58 @@
     <main>
         <section class="banner">
             <div class="container-fluid text-center">
-                <h1>Bienvenido a la Liga Deportiva</h1>
+                <h1>Conoce a Nuestros Jugadores</h1>
                 <p>Explora las últimas noticias, eventos y más.</p>
-                <a href="#" class="btn btn-primary btn-lg">Explorar</a>
+                
+                
+            </div>
+
+        </section>
+
+        <section class="container-fluid">
+            <div class="text-right mt-4">
+                <a href="registerplayers" class="btn btn-success">Agregar Jugador</a>
             </div>
         </section>
+        
 
         <section class="destacado">
             <div class="container-fluid">
-                <h2>Últimas noticias</h2>
+                <h2>Buscar Jugador</h2>
+                <form class="form-inline mb-4">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar por nombre" aria-label="Buscar">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="card mb-4">
-                            <img src="imagen1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title">Título de la noticia</h3>
-                                <p class="card-text">Descripción breve de la noticia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                <a href="#" class="btn btn-primary">Leer más</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card mb-4">
-                            <img src="imagen2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h3 class="card-title">Otra noticia importante</h3>
-                                <p class="card-text">Descripción breve de la noticia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                <a href="#" class="btn btn-primary">Leer más</a>
-                            </div>
-                        </div>
-                    </div>
+                    
+                
                 </div>
             </div>
         </section>
-
-        <section class="galeria bg-light">
+    
+        <section class="destacado">
             <div class="container-fluid">
-                <h2>Estadios</h2>
+                <h2>Perfil del Jugador</h2>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="card mb-4">
-                            <img src="imagen" class="card-img-top" alt="...">
+                            <img src="messi.jpg" class="card-img-top" alt="Lionel Messi">
+                            <div class="card-body">
+                                <h3 class="card-title">Lionel Messi</h3>
+                                <p class="card-text">Posición: Delantero</p>
+                                <p class="card-text">Número: 10</p>
+                                <p class="card-text">Equipo: Barcelona</p>
+                                <p class="card-text">Descripción: Considerado uno de los mejores futbolistas de todos los tiempos, Lionel Messi es conocido por su habilidad para driblar, su visión de juego y su capacidad goleadora.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="imagen2.jpg" class="card-img-top" alt="...">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="imagen3.jpg" class="card-img-top" alt="...">
-                        </div>
-                    </div>
-                </div>
+                   
+                </div> 
             </div>
         </section>
+        
+        
+
     </main>
 
     <footer class="bg-dark text-light text-center py-15">
@@ -116,5 +112,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+    
+        
+    </script>
 </body>
 </html>
