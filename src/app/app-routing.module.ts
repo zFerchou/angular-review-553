@@ -10,6 +10,7 @@ import { TeamsComponent } from './componentes/teams/teams.component';
 import { MatchesComponent } from './componentes/matches/matches.component';
 import { NewsComponent } from './componentes/news/news.component';
 import { RegisterplayerComponent } from './componentes/registerplayer/registerplayer.component';
+import { AdminComponent } from './componentes/admin/admin.component';
 const routes: Routes = [
   {
   path: 'login',
@@ -52,6 +53,11 @@ const routes: Routes = [
     path: 'registerplayers',
     component: RegisterplayerComponent,
   },
+  {
+    path: 'admin',
+    component: AdminComponent,
+  },
+  
   
 
 ];

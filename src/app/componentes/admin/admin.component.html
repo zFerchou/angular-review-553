@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrar Jugadores</title>
+    <link rel="stylesheet" href="admin.component.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Administrar Jugadores</h1>
+
+        <!-- Formulario para agregar un jugador -->
+        <h2>Agregar Jugador</h2>
+        <form action="" method="POST">
+            <label for="nombre">Nombre del Jugador:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="equipo">Equipo:</label>
+            <input type="text" id="equipo" name="equipo" required>
+            <button type="submit">Agregar Jugador</button>
+        </form>
+
+        <!-- Lista de jugadores existentes -->
+        <h2>Lista de Jugadores</h2>
+        <ul>
+            <li><span>Jugador 1</span> - <span>Equipo 1</span> <button class="delete-button" onclick="borrarJugador(1)">Borrar</button></li>
+            <li><span>Jugador 2</span> - <span>Equipo 2</span> <button class="delete-button" onclick="borrarJugador(2)">Borrar</button></li>
+            <li><span>Jugador 3</span> - <span>Equipo 1</span> <button class="delete-button" onclick="borrarJugador(3)">Borrar</button></li>
+        </ul>
+    </div>
+
+    <!-- Función JavaScript para borrar un jugador -->
+    <script src="script.js"></script>
+</body>
+</html>

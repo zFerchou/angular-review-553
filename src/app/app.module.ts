@@ -17,6 +17,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatchesComponent } from './componentes/matches/matches.component';
 import { NewsComponent } from './componentes/news/news.component';
 import { RegisterplayerComponent } from './componentes/registerplayer/registerplayer.component';
+import { AdminComponent } from './componentes/admin/admin.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +28,8 @@ import { RegisterplayerComponent } from './componentes/registerplayer/registerpl
     FooterComponent,
     MatchesComponent,
     NewsComponent,
-    RegisterplayerComponent
+    RegisterplayerComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

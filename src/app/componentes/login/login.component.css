@@ -1,0 +1,71 @@
+body {
+    background-image: url('https://imgs.search.brave.com/2dFsu8-0abpk8fYENO7PBpofG3Q5pv72uSQcBEAwzKw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/c29sb2ZvbmRvcy5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MTYvMDIvQmFsb24t/ZC1mdXRib2wuanBn'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Cubrir toda la pantalla */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    color: #ffffff; /* Color del texto */
+    font-family: Arial, sans-serif; /* Fuente predeterminada para el texto */
+    margin: 0; /* Eliminar margen predeterminado del body */
+    padding: 0; /* Eliminar relleno predeterminado del body */
+  }
+  
+  /* Estilos para el formulario de login */
+  .football-login {
+    width: 360px;
+    margin: 100px auto; /* Centrar el formulario verticalmente */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Color de fondo semi-transparente */
+  }
+  
+  .football-login .field {
+    margin-bottom: 20px;
+  }
+  
+  .football-login label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .football-login input,
+  .football-login .p-password {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #45a29e;
+    background-color: #ffffff;
+    color: #1f2833;
+  }
+  
+  .football-login input:focus,
+  .football-login .p-password:focus {
+    outline: none;
+    border-color: #66fcf1;
+  }
+  
+  .football-login .button {
+    text-align: center;
+  }
+  
+  .football-login .button .p-button {
+    width: 100%;
+    background-color: #45a29e;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .football-login .button .p-button:hover {
+    background-color: #66fcf1;
+  }
+  
+  .football-login .button a {
+    color: #66fcf1;
+    text-decoration: none;
+  }
+  
+  .football-login .button a:hover {
+    text-decoration: underline;
+  }
+  
