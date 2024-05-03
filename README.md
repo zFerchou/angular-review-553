@@ -1,5 +1,4 @@
-# Medina Arredondo Luis Fernando
-# Grupo: GDS0553
+Fernando
 # Descargar e Instalar Login jnto con sus Dependencias
 
 # Instalacion
